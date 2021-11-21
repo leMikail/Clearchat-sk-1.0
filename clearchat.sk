@@ -7,7 +7,7 @@ Command /clearchat:
 		if player has permission "permission.sup.clearchat":
 			loop 400 times:
 				broadcast " "
-			broadcast "&1&lAirLiving &8> &7Der &7Chat &7wurde von &c&c%player% &7geleert&8."
+			broadcast "&1&lAirLiving &8» &7Der &7Chat &7wurde von &c&c%player% &7geleert&8."
 		else:
 			send "{@permmsg}"
 				
